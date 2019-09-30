@@ -38,7 +38,7 @@ const updateWithJoke = async (event) => {
 
 document.addEventListener('focusout', event => {
   if ((event.target && event.target.id === 'firstNumber') ||
-    (event.target && event.target.id === 'secondNumber')||
+    (event.target && event.target.id === 'secondNumber') ||
     (event.target && event.target.id === 'thirdNumber')) {
     validate(event)
   }
