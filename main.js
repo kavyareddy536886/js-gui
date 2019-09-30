@@ -18,7 +18,7 @@ const updateWithAdd = async (event) => {
     const s = document.querySelector('#guest').value.replace(regex, '')
     const i = parseInt(document.querySelector('#firstNumber').value)
     const j = parseInt(document.querySelector('#secondNumber').value)
-    const ans = `${s}, your mul is ${mul(i, j, k)}.`
+    const ans = `${s}, Total number of students are: ${mul(i, j, k)}.`
     document.querySelector('#result').innerHTML = ans
   }
 }
